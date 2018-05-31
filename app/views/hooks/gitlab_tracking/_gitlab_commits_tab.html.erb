@@ -2,7 +2,7 @@
   <script type="text/javascript">
       RMPlus.TABS.http_tab = '<%= params[:tab] %>';
       $(document).ready(function () {
-          RMPlus.TABS.add_new_tab('view_github_commits', '<%= url_for({ controller: :view_gitlab, action: :view_gitlab_commits, id: @issue.id, only_path: true }) %>', '<%= l(:github_commits) %>');
+          RMPlus.TABS.add_new_tab('view_gitlab_commits', '<%= url_for({ controller: :view_gitlab, action: :view_gitlab_commits, id: @issue.id, only_path: true }) %>', '<%= l(:gitlab_commits) %>');
       });
   </script>
 <% end %>

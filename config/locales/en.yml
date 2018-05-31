@@ -1,4 +1,4 @@
 # English strings go here for Rails i18n
 en:
-  github_commits: "Commits"
-  github_merge_requests: "Merge requests"
+  gitlab_commits: "Commits"
+  gitlab_merge_requests: "Merge requests"
