@@ -19,4 +19,4 @@ Redmine::Plugin.register :gitlab_tracking do
            })
 end
 
-require_dependency 'gitlab_tracking/hooks'
+require_dependency 'gitlab_tracking/hooks_views'

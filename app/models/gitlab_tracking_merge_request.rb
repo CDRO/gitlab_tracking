@@ -27,7 +27,6 @@ class GitlabTrackingMergeRequest < ActiveRecord::Base
       if assignee
         gtmr.assignee_username = assignee['username']
         gtmr.assignee_name = assignee['name']
-        gtmr.assignee_email = assignee['email']
       end
 
       gtmr.timestamp = Time.parse(merge_request['created_at'])
