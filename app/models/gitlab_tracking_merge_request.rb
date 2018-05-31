@@ -21,11 +21,13 @@ class GitlabTrackingMergeRequest < ActiveRecord::Base
       if author
         gtmr.author_username = author['username']
         gtmr.author_name = author['name']
+        gtmr.author_email = author['email']
       end
 
       if assignee
         gtmr.assignee_username = assignee['username']
         gtmr.assignee_name = assignee['name']
+        gtmr.assignee_email = assignee['email']
       end
 
       gtmr.timestamp = Time.parse(merge_request['created_at'])

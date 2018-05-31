@@ -2,9 +2,9 @@
 
 Parse webhooks gitlab and add to issue
 
-<center>
-<img src="https://raw.githubusercontent.com/alfss/gitlab_tracking/master/example.png" alt="example">
-</center>
+changelog:
+  2.2.1
+    * Fixed: mobile view
 
 ## Usage
 

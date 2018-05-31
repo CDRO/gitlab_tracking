@@ -1,0 +1,3 @@
+<% if @merge_requests %>
+  $('#tab-content-merge_requests').html('<%= escape_javascript(render(partial: 'view_gitlab/view_gitlab_merge_requests_data', locals: { gtc_merge_request_list: @merge_requests })) %>');
+<% end %>

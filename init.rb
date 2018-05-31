@@ -2,11 +2,11 @@ require 'redmine'
 
 
 Redmine::Plugin.register :gitlab_tracking do
-  name 'Gitlab Tracking plugin'
-  author 'Sergey Kravchuk'
+  name 'Gitlab Tracking plugin.'
+  author 'Sergey Kravchuk, Alexander Millin'
   description 'Tracking gitlab activity repo'
-  version '1.5'
-  url 'https://github.com/alfss/gitlab_tracking'
+  version '1.6'
+  url 'https://github.com/millin/gitlab_tracking'
   author_url 'http://alfss.net'
 
   settings(:partial => 'settings/gitlab_tracking_settings',
