@@ -1,3 +1,5 @@
-<% if @merge_requests %>
+<% if @merge_requests.exists? %>
   $('#tab-content-view_gitlab_merge_requests').html('<%= escape_javascript(render(partial: 'view_gitlab/view_gitlab_merge_requests_data', locals: { gtc_merge_request_list: @merge_requests })) %>');
+<% else %>
+  $('#tab-content-view_gitlab_merge_requests').html('<h3><%= l(:no_merge_requests) %></h3>')
 <% end %>

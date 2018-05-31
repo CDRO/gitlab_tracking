@@ -2,3 +2,5 @@
 en:
   gitlab_commits: "Commits"
   gitlab_merge_requests: "Merge requests"
+  no_commits: "There no commits"
+  no_merge_requests: "There no merge requests"

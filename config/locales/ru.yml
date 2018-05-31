@@ -2,3 +2,5 @@
 ru:
   gitlab_commits: "Коммиты"
   gitlab_merge_requests: "Запросы на слияние"
+  no_commits: "Нет коммитов"
+  no_merge_requests: "Нет запросов на слияние"
